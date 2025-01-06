@@ -1,0 +1,175 @@
+{
+  "restaurants": [
+    {
+      "id": "2",
+      "category": "Japanese Cuisine",
+      "capacity": 30,
+      "restaurantOwner": "Akira Tanaka",
+      "ownerBirthDate": "1975-05-22",
+      "ownerEmail": "akirat@example.com",
+      "restaurantName": "Sushi Haven"
+    },
+    {
+      "id": "3",
+      "category": "Mexican Cuisine",
+      "capacity": 40,
+      "restaurantOwner": "Carlos Rivera",
+      "ownerBirthDate": "1985-10-10",
+      "ownerEmail": "carlosr@example.com",
+      "restaurantName": "Taco Fiesta"
+    },
+    {
+      "id": "4",
+      "category": "French Cuisine",
+      "capacity": 45,
+      "restaurantOwner": "Marie Dubois",
+      "ownerBirthDate": "1990-03-25",
+      "ownerEmail": "maried@example.com",
+      "restaurantName": "Le Gourmet"
+    },
+    {
+      "id": "5",
+      "category": "Indian Cuisine",
+      "capacity": 60,
+      "restaurantOwner": "Raj Patel",
+      "ownerBirthDate": "1978-06-17",
+      "ownerEmail": "rajp@example.com",
+      "restaurantName": "Curry Delight"
+    },
+    {
+      "id": "6",
+      "category": "American Cuisine",
+      "capacity": 70,
+      "restaurantOwner": "Michael Brown",
+      "ownerBirthDate": "1985-09-30",
+      "ownerEmail": "michaelb@example.com",
+      "restaurantName": "Burger Town"
+    },
+    {
+      "id": "7",
+      "category": "Italian Cuisine",
+      "capacity": 55,
+      "restaurantOwner": "Luca Romano",
+      "ownerBirthDate": "1982-03-10",
+      "ownerEmail": "lucar@example.com",
+      "restaurantName": "Rome's Feast"
+    },
+    {
+      "id": "8",
+      "category": "Japanese Cuisine",
+      "capacity": 35,
+      "restaurantOwner": "Yuki Matsuda",
+      "ownerBirthDate": "1980-12-08",
+      "ownerEmail": "yukim@example.com",
+      "restaurantName": "Tokyo Sushi"
+    },
+    {
+      "id": "9",
+      "category": "Mexican Cuisine",
+      "capacity": 50,
+      "restaurantOwner": "Sofia Hernandez",
+      "ownerBirthDate": "1990-09-11",
+      "ownerEmail": "sofia@example.com",
+      "restaurantName": "El Sombrero"
+    },
+    {
+      "id": "10",
+      "category": "French Cuisine",
+      "capacity": 45,
+      "restaurantOwner": "Claude Martin",
+      "ownerBirthDate": "1977-04-02",
+      "ownerEmail": "claudem@example.com",
+      "restaurantName": "Parisian Bliss"
+    },
+    {
+      "id": "11",
+      "category": "Indian Cuisine",
+      "capacity": 70,
+      "restaurantOwner": "Anjali Sharma",
+      "ownerBirthDate": "1985-07-22",
+      "ownerEmail": "anjalis@example.com",
+      "restaurantName": "Spice Symphony"
+    },
+    {
+      "id": "12",
+      "category": "American Cuisine",
+      "capacity": 60,
+      "restaurantOwner": "Linda Green",
+      "ownerBirthDate": "1981-11-01",
+      "ownerEmail": "lindag@example.com",
+      "restaurantName": "Grill Master"
+    },
+    {
+      "id": "13",
+      "category": "Italian Cuisine",
+      "capacity": 45,
+      "restaurantOwner": "Gianna Rossi",
+      "ownerBirthDate": "1991-01-30",
+      "ownerEmail": "giannar@example.com",
+      "restaurantName": "Trattoria Roma"
+    },
+    {
+      "id": "14",
+      "category": "Japanese Cuisine",
+      "capacity": 40,
+      "restaurantOwner": "Takeshi Hara",
+      "ownerBirthDate": "1984-11-04",
+      "ownerEmail": "takeshi@example.com",
+      "restaurantName": "Zen Bistro"
+    },
+    {
+      "id": "15",
+      "category": "Mexican Cuisine",
+      "capacity": 65,
+      "restaurantOwner": "Priya Kapoor",
+      "ownerBirthDate": "1979-08-14",
+      "ownerEmail": "priyak@example.com",
+      "restaurantName": "Cantina Viva"
+    },
+    {
+      "id": "16",
+      "category": "French Cuisine",
+      "capacity": 35,
+      "restaurantOwner": "Isabelle Laurent",
+      "ownerBirthDate": "1989-05-16",
+      "ownerEmail": "isabelle@example.com",
+      "restaurantName": "Belle Cuisine"
+    },
+    {
+      "id": "17",
+      "category": "Indian Cuisine",
+      "capacity": 50,
+      "restaurantOwner": "Ravi Mehta",
+      "ownerBirthDate": "1983-06-29",
+      "ownerEmail": "ravim@example.com",
+      "restaurantName": "Bollywood Bites"
+    },
+    {
+      "id": "18",
+      "category": "American Cuisine",
+      "capacity": 40,
+      "restaurantOwner": "Jack Wilson",
+      "ownerBirthDate": "1982-02-18",
+      "ownerEmail": "jackw@example.com",
+      "restaurantName": "BBQ Central"
+    },
+    {
+      "id": "19",
+      "category": "Japanese Cuisine",
+      "capacity": 30,
+      "restaurantOwner": "Hana Saito",
+      "ownerBirthDate": "1987-02-03",
+      "ownerEmail": "hanas@example.com",
+      "restaurantName": "Sakura Sushi"
+    },
+    {
+      "id": "20",
+      "category": "Mexican Cuisine",
+      "capacity": 40,
+      "restaurantOwner": "Juan Martinez",
+      "ownerBirthDate": "1976-06-20",
+      "ownerEmail": "juanm@example.com",
+      "restaurantName": "Casa Bonita"
+    }
+  ]
+}

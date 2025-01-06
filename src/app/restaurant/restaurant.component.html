@@ -1,0 +1,61 @@
+@if(model){
+<div class="modal" tabindex="-1" style="display: block;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Adatok rögzítése</h5>
+                <button type="button" class="btn-close" (click)="model = undefined"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="teamName" class="form-label">Étterem neve</label>
+                        <input type="text" class="form-control" id="restaurantName" [value]="model.restaurantName"
+                            (change)="model.restaurantName = getValue($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Kategória</label>
+                        <select class="form-select" id="category" [value]="model.category"
+                        (change)="model.category = getValue($event)">
+                            <option selected>Válassz...</option>
+                            <option value="Italian Cuisine">Italian Cuisine</option>
+                            <option value="Japanese Cuisine">Japanese Cuisine</option>
+                            <option value="Mexican Cuisine">Mexican Cuisine</option>
+                            <option value="French Cuisine">French Cuisine</option>
+                            <option value="Indian Cuisine">Indian Cuisine</option>
+                            <option value="American Cuisine">American Cuisine</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamMembers" class="form-label">Kapacitás</label>
+                        <input type="number" class="form-control" id="capacity" min="30" step="5" max="70"
+                            [value]="model.capacity"
+                            (change)="model.capacity = getNumberValue($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamMembers" class="form-label">Tulaj neve</label>
+                        <input type="text" class="form-control" id="restaurantOwner"
+                            [value]="model.restaurantOwner"
+                            (change)="model.restaurantOwner = getValue($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamLeader" class="form-label">Tulaj e-mail címe</label>
+                        <input type="text" class="form-control" id="ownerEmail" [value]="model.ownerEmail"
+                            (change)="model.ownerEmail = getValue($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamLeader" class="form-label">Tulaj szüldátum</label>
+                        <input type="date" class="form-control" id="ownerBirthDate" [value]="model.ownerBirthDate"
+                            (change)="model.ownerBirthDate = getValue($event)">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+                    (click)="model = undefined">Mégsem</button>
+                <button type="button" class="btn btn-success" (click)="save()">Mentés</button>
+            </div>
+        </div>
+    </div>
+</div>
+}

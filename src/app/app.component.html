@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="container">
+
+      <img src="instant.png" class="center" alt="">
+      <h1 class="text-center">Budapest legnépszerűbb éttermei egy helyen</h1>
+      <h3 class="text-center">Exkluzív éttermi ajánlatok</h3>
+      <table class="table table-hover table-bordered">
+          <tr class="text-center">
+              <th>
+                  <span (click)="newRest()">&#10010;</span>
+              </th>
+              <th>Étterem neve</th>
+              <th>Kategória</th>
+              <th>Kapacitás</th>
+              <th>Tulaj neve</th>
+              <th>Tulaj e-mail</th>
+              <th>Tulaj szüldátum</th>
+          </tr>
+          @for (rest of restaurants; track $index) {
+          <tr>
+              <td>
+                  <span (click)="modifyRest(rest)">&#10000;</span>
+                  <span (click)="deleteRest(rest)">&#10008;</span>
+              </td>
+              <td>{{rest.restaurantName}}</td>
+              <td>{{rest.category}}</td>
+              <td>{{rest.capacity}}</td>
+              <td>{{rest.restaurantOwner}}</td>
+              <td>{{rest.ownerEmail}}</td>
+              <td>{{rest.ownerBirthDate}}</td>
+          </tr>
+          }
+      </table>
+  </div>
+</div>
+
+<app-restaurant [model]="modify" (saved)="saveModified($event)"></app-restaurant>
+<app-restaurant [model]="new" (saved)="saveNew($event)"></app-restaurant>
